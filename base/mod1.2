@@ -1,0 +1,16 @@
+public class MultiplesNumbers {
+    public static void main(String[] args) {
+        int[][] x = { {20, 34, 2}, {9, 12, 18}, {3, 4, 5} };
+
+        int minEl = x[0][0];
+
+        for (int[] row : x) {
+            for (int element : row) {
+                if (element < minEl) {
+                    minEl = element;
+                }
+            }
+        }
+        System.out.println(minEl);
+    }
+}
