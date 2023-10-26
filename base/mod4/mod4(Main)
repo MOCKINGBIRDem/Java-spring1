@@ -9,8 +9,8 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:8889/mod4_database";
-        String user = "root";
-        String password = "root";
+        String user = "Adm";
+        String password = "Adm";
 
         try {
             Connection connection = DriverManager.getConnection(url, user, password);
